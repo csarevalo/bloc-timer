@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:flutter/foundation.dart' show debugPrint;
+// import 'package:flutter/foundation.dart' show debugPrint;
 import 'package:meta/meta.dart';
 
 import '../ticker/ticker.dart';
@@ -34,7 +34,7 @@ class TimerBloc extends Bloc<TimerEvent, TimerState> {
 
   @override
   void onChange(Change<TimerState> change) {
-    debugPrint(change.toString());
+    // debugPrint(change.toString());
     super.onChange(change);
   }
 
