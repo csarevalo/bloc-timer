@@ -146,6 +146,7 @@ app.*.symbols
 
 # Ignore the following platform directories
 /android
+/ios
 /linux
 /macos
 /windows
